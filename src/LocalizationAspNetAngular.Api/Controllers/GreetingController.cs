@@ -21,6 +21,6 @@ namespace LocalizationAspNetAngular.Api.Controllers
         [ProducesResponseType(typeof(GetGreeting.Response), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<GetGreeting.Response>> Get([FromQuery] GetGreeting.Request request)
             => await _mediator.Send(request);
-        
+
     }
 }

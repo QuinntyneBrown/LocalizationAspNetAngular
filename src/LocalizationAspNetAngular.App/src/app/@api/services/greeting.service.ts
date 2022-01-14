@@ -1,7 +1,7 @@
 import { Injectable, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, tap } from 'rxjs/operators';
 import { BASE_URL } from '@core';
 
 @Injectable({
@@ -16,8 +16,8 @@ export class GreetingService {
 
   public get(name: string): Observable<string> {
     return this._client.get<{ greeting: string }>(`${this._baseUrl}api/greeting?name=${name}`)
-      .pipe(
-        map(x => x.greeting)
-      );
+    .pipe(
+      map(response => response.greeting)
+    )
   }
 }

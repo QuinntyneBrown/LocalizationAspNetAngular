@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\quinn\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\quinn\\.nuget\\packages"
-    ]
-  }
-}

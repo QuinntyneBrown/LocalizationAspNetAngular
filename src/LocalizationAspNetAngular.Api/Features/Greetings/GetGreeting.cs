@@ -36,7 +36,7 @@ namespace LocalizationAspNetAngular.Api.Features
                 var httpContext = _httpContextAccessor.HttpContext;
 
                 var acceptLanguageHeaderValue = httpContext.Request.Headers["Accept-Language"];
-
+                
                 var localizedString = _localizer["Greeting"];
 
                 return new()
