@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1ec2dbee-832f-4396-b2cd-52f283bd2d4c": {
+      "ProjectGuid": "1ec2dbee-832f-4396-b2cd-52f283bd2d4c",
+      "DisplayName": "LocalizationAspNetAngular.Api",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

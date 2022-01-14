@@ -1,0 +1,16 @@
+{
+  "domainNamespace": "LocalizationAspNetAngular.Api",
+  "applicationNamespace": "LocalizationAspNetAngular.Api",
+  "infrastructureNamespace": "LocalizationAspNetAngular.Api",
+  "apiNamespace": "LocalizationAspNetAngular.Api",
+  "domainDirectory": "C:\\projects\\LocalizationAspNetAngular\\src\\LocalizationAspNetAngular.Api",
+  "applicationDirectory": "C:\\projects\\LocalizationAspNetAngular\\src\\LocalizationAspNetAngular.Api",
+  "infrastructureDirectory": "C:\\projects\\LocalizationAspNetAngular\\src\\LocalizationAspNetAngular.Api",
+  "apiDirectory": "C:\\projects\\LocalizationAspNetAngular\\src\\LocalizationAspNetAngular.Api",
+  "path": "C:\\projects\\LocalizationAspNetAngular",
+  "dbContext": "LocalizationAspNetAngularDbContext",
+  "sourceFolder": "src",
+  "resources": [
+    "Greeting"
+  ]
+}
